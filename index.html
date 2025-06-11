@@ -1,0 +1,2132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://img1.hocoos.com/static/img/default-favicons/favicon-v1.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,500&amp;display=swap" rel="stylesheet'
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script src="js/scroll-animation.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+    <script
+      src="https://kit.fontawesome.com/fde57a8435.js"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css" id="site-root-css">
+      :root {
+        --bodyBg: #013a41;
+        --bodyColor: #f2f2f2;
+        --bodyFontFamily: "Montserrat", sans-serif;
+        --bodyFontSize: 16px;
+        --bodyFontWeight: 200;
+        --bodyFontStyle: normal;
+        --bodyLineHeight: 1.1;
+        --bodyTextTransform: inherit;
+        --bodyTextLetterSpacing: inherit;
+        --primaryFont: "Sulphur Point", sans-serif;
+        --secondaryFont: "Montserrat", sans-serif;
+        --pageContainer: 1150px;
+        --primaryColor: #013a41;
+        --secondaryColor: #f2f2f2;
+        --accentColor: #558c87;
+        --mutedColor: #f2f2f2;
+        --fifthColor: #095958;
+        --sixthColor: #bfbfbf;
+        --seventhColor: #013a41;
+        --whiteColor: #ffffff;
+        --blackColor: #000000;
+        --transparentColor: transparent;
+        --primaryBorder: 1px solid #013a41;
+        --secondaryBorder: 1px solid #f2f2f2;
+        --accentBorder: 1px solid #558c87;
+        --borderRadius: 0;
+        --headerBg: #013a41;
+        --headerColor: #ffffff;
+        --headerHoverColor: #558c87;
+        --headerActiveColor: #f2f2f2;
+        --headerFontFamily: "Montserrat", sans-serif;
+        --headerFontSize: 16px;
+        --headerFontWeight: 400;
+        --headerFontStyle: normal;
+        --headerLineHeight: 1.2;
+        --headerTextTransform: inherit;
+        --headerStickyBg: #013a41;
+        --headerStickyColor: #ffffff;
+        --headerStickyOpacityPercentage: 0;
+        --headerStickyBlur: 0;
+        --backToTopColor: #f2f2f2;
+        --backToTopBg: #558c87;
+        --backToTopBorderColor: #558c87;
+        --footerBg: #013a41;
+        --footerColor: #ffffff;
+        --footerFontFamily: "Montserrat", sans-serif;
+        --footerFontSize: 16px;
+        --footerFontWeight: 400;
+        --footerFontStyle: normal;
+        --footerLineHeight: 1.2;
+        --footerTextTransform: inherit;
+        --headlineH1Color: #f2f2f2;
+        --headlineH1FontFamily: "Sulphur Point", sans-serif;
+        --headlineH1FontSize: 60px;
+        --headlineH1FontWeight: 700;
+        --headlineH1FontStyle: normal;
+        --headlineH1LineHeight: 1.3;
+        --headlineH1TextTransform: none;
+        --headlineH1TextDecoration: none;
+        --headlineH1LineVisible: block;
+        --headlineH1LineBg: #558c87;
+        --headlineH2Color: #f2f2f2;
+        --headlineH2FontFamily: "Sulphur Point", sans-serif;
+        --headlineH2FontSize: 40px;
+        --headlineH2FontWeight: 700;
+        --headlineH2FontStyle: normal;
+        --headlineH2LineHeight: 1.3;
+        --headlineH2TextTransform: inherit;
+        --headlineH2TextDecoration: inherit;
+        --subTitleH3Color: #558c87;
+        --subTitleH3FontFamily: "Montserrat", sans-serif;
+        --subTitleH3FontSize: 24px;
+        --subTitleH3FontWeight: 400;
+        --subTitleH3FontStyle: normal;
+        --subTitleH3LineHeight: 1.2;
+        --subTitleH3TextTransform: inherit;
+        --subTitleH3TextDecoration: inherit;
+        --subTitleH4Color: #f2f2f2;
+        --subTitleH4FontFamily: "Montserrat Subrayada", sans-serif;
+        --subTitleH4FontSize: 24px;
+        --subTitleH4FontWeight: 400;
+        --subTitleH4FontStyle: normal;
+        --subTitleH4LineHeight: 1.2;
+        --subTitleH4TextTransform: inherit;
+        --subTitleH4TextDecoration: inherit;
+        --bodyText1Color: #f2f2f2;
+        --bodyText1FontFamily: "Montserrat", sans-serif;
+        --bodyText1FontSize: 18px;
+        --bodyText1FontWeight: 400;
+        --bodyText1FontStyle: normal;
+        --bodyText1LineHeight: 1.6;
+        --bodyText1TextTransform: inherit;
+        --bodyText1TextDecoration: inherit;
+        --bodyText2Color: #f2f2f2;
+        --bodyText2FontFamily: "Montserrat", sans-serif;
+        --bodyText2FontSize: 16px;
+        --bodyText2FontWeight: 300;
+        --bodyText2FontStyle: normal;
+        --bodyText2LineHeight: 1.9;
+        --bodyText2TextTransform: inherit;
+        --bodyText2TextDecoration: inherit;
+        --bodyText3Color: #f2f2f2;
+        --bodyText3FontFamily: "Montserrat", sans-serif;
+        --bodyText3FontSize: 14px;
+        --bodyText3FontWeight: 400;
+        --bodyText3FontStyle: normal;
+        --bodyText3LineHeight: 1.6;
+        --bodyText3TextTransform: inherit;
+        --bodyText3TextDecoration: inherit;
+        --overline1Color: #f2f2f2;
+        --overline1FontFamily: "Montserrat", sans-serif;
+        --overline1FontSize: 16px;
+        --overline1FontWeight: 600;
+        --overline1FontStyle: normal;
+        --overline1LineHeight: 1.3;
+        --overline1TextTransform: inherit;
+        --overline1TextDecoration: inherit;
+        --overline2Color: #f2f2f2;
+        --overline2FontFamily: "Montserrat", sans-serif;
+        --overline2FontSize: 14px;
+        --overline2FontWeight: 400;
+        --overline2FontStyle: normal;
+        --overline2LineHeight: 1.3;
+        --overline2TextTransform: inherit;
+        --overline2TextDecoration: inherit;
+        --caption1Color: #f2f2f2;
+        --caption1FontFamily: "Montserrat", sans-serif;
+        --caption1FontSize: 18px;
+        --caption1FontWeight: 600;
+        --caption1FontStyle: normal;
+        --caption1LineHeight: 1.2;
+        --caption1TextTransform: inherit;
+        --caption1TextDecoration: inherit;
+        --caption2Color: #f2f2f2;
+        --caption2FontFamily: "Montserrat", sans-serif;
+        --caption2FontSize: 18px;
+        --caption2FontWeight: 400;
+        --caption2FontStyle: normal;
+        --caption2LineHeight: 1.2;
+        --caption2TextTransform: inherit;
+        --caption2TextDecoration: line-through;
+        --caption3Color: #f2f2f2;
+        --caption3FontFamily: "Montserrat", sans-serif;
+        --caption3FontSize: 12px;
+        --caption3FontWeight: 400;
+        --caption3FontStyle: normal;
+        --caption3LineHeight: 1.2;
+        --caption3TextTransform: inherit;
+        --caption3TextDecoration: inherit;
+        --fieldLabelColor: #bfbfbf;
+        --fieldLabelFontFamily: "Montserrat", sans-serif;
+        --fieldLabelFontSize: 16px;
+        --fieldLabelFontWeight: 400;
+        --fieldLabelFontStyle: normal;
+        --fieldLabelLineHeight: 1.2;
+        --fieldLabelTextTransform: inherit;
+        --fieldLabelTextDecoration: inherit;
+        --inputFieldColor: #558c87;
+        --inputFieldBg: #ffffff;
+        --inputFieldBorderColor: #f2f2f2;
+        --inputFieldFocusBorderColor: #bfbfbf;
+        --inputFieldFontFamily: "Montserrat", sans-serif;
+        --inputFieldFontSize: 16px;
+        --inputFieldFontWeight: 400;
+        --inputFieldFontStyle: normal;
+        --inputFieldLineHeight: 1.2;
+        --inputFieldTextTransform: inherit;
+        --inputFieldTextDecoration: inherit;
+        --btnFontFamily: "Montserrat", sans-serif;
+        --btnFontSize: 14px;
+        --btnFontWeight: 600;
+        --btnFontStyle: normal;
+        --btnTextTransform: uppercase;
+        --btnTextDecoration: inherit;
+        --btnBg: #558c87;
+        --btnHoverBg: #558c87;
+        --btnColor: #f2f2f2;
+        --btnHoverColor: #f2f2f2;
+        --btnBorderColor: #558c87;
+        --btnHoverBorderColor: #558c87;
+        --btnBorderRadius: 0px;
+        --btnBorderWidth: 1px;
+        --btnBorderStyle: solid;
+        --btnPrimaryBg: #558c87;
+        --btnPrimaryHoverBg: transparent;
+        --btnPrimaryColor: #f2f2f2;
+        --btnPrimaryHoverColor: #558c87;
+        --btnPrimaryBorderColor: #558c87;
+        --btnPrimaryHoverBorderColor: #558c87;
+        --btnPrimaryDisabledBg: #f2f2f2;
+        --btnPrimaryDisabledColor: #bfbfbf;
+        --btnSecondaryBg: #f2f2f2;
+        --btnSecondaryHoverBg: transparent;
+        --btnSecondaryColor: #558c87;
+        --btnSecondaryHoverColor: #f2f2f2;
+        --btnSecondaryBorderColor: #558c87;
+        --btnSecondaryHoverBorderColor: #f2f2f2;
+        --btnLinkColor: #558c87;
+        --btnLinkHoverColor: #f2f2f2;
+        --btnLinkTextDecoration: underline;
+        --btnLinkLabelIcon: "e91f";
+        --imageBorderRadius: 0px;
+        --gridItemBorderRadius: 0px;
+        --accordionBg: #013a41;
+        --accordionColor: #f2f2f2;
+        --accordionBorderColor: #f2f2f2;
+        --accordionHeadBg: #013a41;
+        --accordionHeadColor: #f2f2f2;
+        --miniBannerBg: #095958;
+        --miniBannerBorderColor: #095958;
+        --cardsBg: #095958;
+        --cardsBorderColor: #095958;
+        --tabBg: #095958;
+        --tabColor: #ffffff;
+        --tabHoverBg: #558c87;
+        --tabHoverColor: #f2f2f2;
+        --tabActiveBg: #558c87;
+        --tabActiveColor: #f2f2f2;
+        --tabFontFamily: "Montserrat", sans-serif;
+        --tabFontSize: 16px;
+        --tabFontWeight: 400;
+        --tabActiveFontWeight: 400;
+        --tabFontStyle: normal;
+        --tabTextTransform: inherit;
+        --tabTextDecoration: inherit;
+        --overlayBg: rgba(1, 58, 65, 0.7);
+        --overlayColor: #558c87;
+        --imageBackdropFilter: 0px;
+        --sliderNavColor: #ffffff;
+        --sliderNavBg: #558c87;
+        --sliderIndicatorsBg: #558c87;
+        --sliderIndicatorsColor: #f2f2f2;
+        --widgetTintBackgroundColor: #02707d;
+        --storeBodyBg: #ffffff;
+        --storeBodyColor: #000000;
+        --storeBtnPrimaryBg: #000000;
+        --storeBtnPrimaryHoverBg: #000000;
+        --storeBtnPrimaryColor: #ffffff;
+        --storeBtnPrimaryHoverColor: #ffffff;
+        --storeBtnPrimaryBorderColor: #000000;
+        --storeBtnPrimaryHoverBorderColor: #000000;
+        --storeBtnPrimaryDisabledBg: #f2f2f2;
+        --storeBtnPrimaryDisabledColor: #f2f2f2;
+        --storeBtnSecondaryBg: #ffffff;
+        --storeBtnSecondaryHoverBg: #ffffff;
+        --storeBtnSecondaryColor: #000000;
+        --storeBtnSecondaryHoverColor: #000000;
+        --storeBtnSecondaryBorderColor: #000000;
+        --storeBtnSecondaryHoverBorderColor: #000000;
+        --storeBtnSecondaryDisabledBg: #ffffff;
+        --storeBtnSecondaryDisabledColor: #f2f2f2;
+        --blogBodyBg: #ffffff;
+        --blogBodyColor: #000000;
+        --blogBtnPrimaryBg: #000000;
+        --blogBtnPrimaryHoverBg: #000000;
+        --blogBtnPrimaryColor: #ffffff;
+        --blogBtnPrimaryHoverColor: #ffffff;
+        --blogBtnPrimaryBorderColor: #000000;
+        --blogBtnPrimaryHoverBorderColor: #000000;
+        --blogBtnPrimaryDisabledBg: #f2f2f2;
+        --blogBtnPrimaryDisabledColor: #f2f2f2;
+        --blogBtnSecondaryBg: #ffffff;
+        --blogBtnSecondaryHoverBg: #ffffff;
+        --blogBtnSecondaryColor: #000000;
+        --blogBtnSecondaryHoverColor: #000000;
+        --blogBtnSecondaryBorderColor: #000000;
+        --blogBtnSecondaryHoverBorderColor: #000000;
+        --blogBtnSecondaryDisabledBg: #ffffff;
+        --blogBtnSecondaryDisabledColor: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body
+    class="kmb-site-body kmb-template-default kmb-site-default-language-en-us kmb-site-page-animation"
+  >
+    <div id="__nuxt">
+      <div
+        id="kmb-site-layout"
+        class="kmb-site kmb-site-wrapper kmb-site-image-filter-name-normal kmb-site-image-filter-id-1"
+      >
+        <header
+          id="kmb-header"
+          class="kmb-site-header kmb-horizontal-header-menu kmb-horizontal-header-align-center-menu kmb-horizontal-left-header-menu kmb-site-header-hidden-menu-extras"
+        >
+          <div
+            id="kmb-site-header-container"
+            class="kmb-site-header-container relative kmb-widget-container"
+          >
+            <div class="kmb-header-row kmb-header-text">
+              <div class="kmb-site-logo kmb-site-header-logo">
+                <a
+                  aria-current="page"
+                  href="/"
+                  class="router-link-active router-link-exact-active kmb-logo-link kmb-logo-type-2 kmb-header-logo-link"
+                  ><span class="kmb-site-logo-txt kmb-site-default-text"
+                    >VIWE INC</span
+                  ></a
+                >
+              </div>
+              <div
+                class="kmb-header-menu kmb-horizontal-menu kmb-header-text kmb-site-default-dir flex flex-1 kmb-header-align-center-menu justify-center kmb-dropdown-menu"
+              >
+                <button
+                  class="kmb-navbar-toggles"
+                  type="button"
+                  aria-label="toggle"
+                >
+                  <span class="kmb-nav-icons"></span>
+                </button>
+                <div
+                  id="nav-menu"
+                  class="kmb-header-menu-extras kmb-site-header-menu-extars-mobile-search mx-5"
+                ></div>
+                <div class="kmb-horizontal-menu-navbar-collapse">
+                  <div class="kmb-horizontal-navbar-collapse-menu flex">
+                    <ul class="kmb-main-menu">
+                      <li
+                        class="kmb-menu-item kmb-menu-item-level-0 kmb-menu-item-type-page kmb-menu-page-id-2371426"
+                        data-menu-item-key="1579620086616822000"
+                      >
+                        <a
+                          aria-current="page"
+                          href="index.html"
+                          class="router-link-active router-link-exact-active kmb-menu-item-link kmb-menu-item-link-active"
+                          >Home</a
+                        >
+                      </li>
+                      <li
+                        class="kmb-menu-item kmb-menu-item-level-0 kmb-menu-item-type-page kmb-menu-page-id-2371427"
+                        data-menu-item-key="1272360905781048000"
+                      >
+                        <a href="about-us.html" class="kmb-menu-item-link"
+                          >About Us</a
+                        >
+                      </li>
+                      <li
+                        class="kmb-menu-item kmb-menu-item-level-0 kmb-menu-item-type-page kmb-menu-page-id-2371429"
+                        data-menu-item-key="4464075799490203600"
+                      >
+                        <a href="services.html" class="kmb-menu-item-link"
+                          >Services</a
+                        >
+                      </li>
+                      <li
+                        class="kmb-menu-item kmb-menu-item-level-0 kmb-menu-item-type-page kmb-menu-page-id-2371431"
+                        data-menu-item-key="8115502219676731000"
+                      >
+                        <a href="contact-us.html" class="kmb-menu-item-link"
+                          >Contact Us</a
+                        >
+                      </li>
+                      <li
+                        class="kmb-menu-item-mobile-extras flex"
+                        id="mobile-contact"
+                      >
+                        <div class="kmb-header-menu-extras">
+                          <ul
+                            class="kmb-site-header-menu-extras kmb-menu-extras"
+                          >
+                            <!----><!----><!---->
+                            <li
+                              class="kmb-extras-item kmb-extras-item-has-sub-menu kmb-extras-contact-item"
+                            >
+                              <span
+                                class="kmb-extras-item-icon kmb-extras-contact-item-icon"
+                                ><i class="kmb-site-icon-contacts"></i
+                                ><i
+                                  class="kmb-site-icon-angle-down inline-block ml-2"
+                                ></i
+                              ></span>
+                              <ul
+                                class="kmb-extras-item-menu kmb-extras-contacts-list kmb-site-default-dir"
+                              >
+                                <li
+                                  class="kmb-extras-contacts-list-item kmb-extras-contacts-list-phones-item flex mb-6"
+                                >
+                                  <span
+                                    class="kmb-extras-inner-contact-item-icon"
+                                    ><i class="fa-solid fa-phone"></i
+                                  ></span>
+                                  <ul
+                                    class="kmb-extras-inner-conatcts-list kmb-extras-phones-list mx-2"
+                                  >
+                                    <li
+                                      class="kmb-extras-inner-contact-item kmb-phone-item mb-4"
+                                    >
+                                      <a
+                                        href="tel:639491605587"
+                                        class="kmb-extras-item-value inline-block"
+                                        >639491605587</a
+                                      ><span
+                                        class="kmb-extras-item-label kmb-phone-item-label kmb-widget-text-body3 mt-2 block"
+                                        >GERALDIZO MARKETING</span
+                                      >
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li
+                                  class="kmb-extras-contacts-list-item kmb-extras-contacts-list-emails-item flex mb-6"
+                                >
+                                  <span
+                                    class="kmb-extras-inner-contact-item-icon"
+                                    ><i class="fa-regular fa-envelope"></i
+                                  ></span>
+                                  <ul
+                                    class="kmb-extras-inner-conatcts-list kmb-extras-emails-list mx-2"
+                                  >
+                                    <li
+                                      class="kmb-extras-inner-contact-item kmb-phone-item mb-4"
+                                    >
+                                      <a
+                                        href="mailto:geraldizomarketing@gmail.com"
+                                        class="kmb-extras-item-value inline-block"
+                                        >geraldizomarketing@gmail.com</a
+                                      ><span
+                                        class="kmb-extras-item-label kmb-email-item-label kmb-widget-text-body3 mt-2 block"
+                                        >GERALDIZO MARKETING</span
+                                      >
+                                    </li>
+                                  </ul>
+                                </li>
+                                <!---->
+                              </ul>
+                            </li>
+                            <li class="kmb-extras-item kmb-extras-button-item">
+                              <a
+                                href="#"
+                                class="kmb-widget-btn kmb-widget-primary-btn kmb-header-extras-btn kmb-header-extras-contacts-btn"
+                                ><!----><!----><span
+                                  class="kmb-widget-btn-label"
+                                  >Contact us</span
+                                ><!----></a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="kmb-header-menu-extras kmb-header-main-menu-extras">
+                <ul class="kmb-site-header-menu-extras kmb-menu-extras">
+                  <li
+                    class="kmb-extras-item kmb-extras-item-has-sub-menu kmb-extras-contact-item"
+                  >
+                    <span
+                      class="kmb-extras-item-icon kmb-extras-contact-item-icon"
+                      ><i class="fa-regular fa-envelope"></i
+                      ><i class="fa-solid fa-angle-down inline-block ml-2"></i
+                    ></span>
+                    <ul
+                      class="kmb-extras-item-menu kmb-extras-contacts-list kmb-site-default-dir"
+                    >
+                      <li
+                        class="kmb-extras-contacts-list-item kmb-extras-contacts-list-phones-item flex mb-6"
+                      >
+                        <span class="kmb-extras-inner-contact-item-icon"
+                          ><i class="fa-solid fa-phone"></i
+                        ></span>
+                        <ul
+                          class="kmb-extras-inner-conatcts-list kmb-extras-phones-list mx-2"
+                        >
+                          <li
+                            class="kmb-extras-inner-contact-item kmb-phone-item mb-4"
+                          >
+                            <a
+                              href="tel:639491605587"
+                              class="kmb-extras-item-value inline-block"
+                              >639491605587</a
+                            ><span
+                              class="kmb-extras-item-label kmb-phone-item-label kmb-widget-text-body3 mt-2 block"
+                              >GERALDIZO MARKETING</span
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li
+                        class="kmb-extras-contacts-list-item kmb-extras-contacts-list-emails-item flex mb-6"
+                      >
+                        <span class="kmb-extras-inner-contact-item-icon"
+                          ><i class="fa-regular fa-envelope"></i
+                        ></span>
+                        <ul
+                          class="kmb-extras-inner-conatcts-list kmb-extras-emails-list mx-2"
+                        >
+                          <li
+                            class="kmb-extras-inner-contact-item kmb-phone-item mb-4"
+                          >
+                            <a
+                              href="mailto:geraldizomarketing@gmail.com"
+                              class="kmb-extras-item-value inline-block"
+                              >geraldizomarketing@gmail.com</a
+                            ><span
+                              class="kmb-extras-item-label kmb-email-item-label kmb-widget-text-body3 mt-2 block"
+                              >GERALDIZO MARKETING</span
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="kmb-extras-item kmb-extras-button-item">
+                    <a
+                      href="#"
+                      class="kmb-widget-btn kmb-widget-primary-btn kmb-header-extras-btn kmb-header-extras-contacts-btn"
+                      ><span class="kmb-widget-btn-label">Contact us</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="kmb-site-page">
+          <!--nuxt-delay-hydration-component-->
+          <div
+            class="kmb-site-page-content kmb-site-page-id-2371426 kmb-site-page-type-id-1 kmb-site-page-type-home"
+            data-page-template-type="1"
+          >
+            <div
+              class="kmb-page-widget banner banner-type-t1 banner-t1-v5"
+              style="padding-top: 0px; padding-bottom: 0px"
+              id="BannerSettingsT1V5_3043863377331"
+            >
+              <div class="kmb-widget-container-fluid">
+                <div class="kmb-widget-content">
+                  <div class="kmb-banner-main-bg">
+                    <div
+                      class="kmb-widget-bg-image-item kmb-parallax-wrapper kmb-widget-banner-item kmb-widget-bg-image-with-overlay bg-center w-full kmb-widget-banner-item banner-bg kmb-widget-bg-image-flex-content bg-center z-1 relative"
+                      style="min-height: 560px"
+                    >
+                      <div class="kmb-widget-bg-image" data-height="560">
+                        <img
+                          onerror="this.setAttribute('data-error', 1)"
+                          alt="SIPS"
+                          loading="lazy"
+                          data-nuxt-img=""
+                          srcset="assets/images/yf.webp 1x"
+                          style="
+                            transform: translate3d(0px, -2%, 0px) scale(1.3);
+                          "
+                          class="kmb-bg-widget-image-item kmb-widget-bg-parallax-image"
+                          data-width="1900"
+                          data-height="560"
+                          src="assets/images/yf.webp"
+                        />
+                      </div>
+                      <div class="kmb-widget-bg-image-content">
+                        <div
+                          class="kmb-widget-overlay kmb-widget-bg-image-overlay-content"
+                        >
+                          <div
+                            class="kmb-widget-overlay-content flex items-center"
+                          >
+                            <div class="kmb-widget-container">
+                              <div
+                                class="kmb-widget-banner-content kmb-widget-banner-content-bg py-6 md_py-10 md_px-6 w-full kmb-widget-mini-banner-bg kmb-widget-banner-box text-center"
+                              >
+                                <div
+                                  class="kmb-widget-aligment-wrap animate__animated animate__fadeInUp"
+                                >
+                                  <h1
+                                    class="kmb-widget-rich-text kmb-widget-title kmb-widget-title-h1 kmb-widget-title-no-divider kmb-banner-title"
+                                    data-max-chars="150"
+                                  >
+                                    <span
+                                      class="kmb-live-tag-label kmb-rich-text-paragraph"
+                                      dir=""
+                                      ><span
+                                        >Viwe Inc: Digital Marketing
+                                        Solutions</span
+                                      ></span
+                                    >
+                                  </h1>
+                                  <div
+                                    class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-banner-description"
+                                    data-max-chars="1200"
+                                  >
+                                    <p
+                                      class="kmb-live-tag-label kmb-rich-text-paragraph"
+                                      dir=""
+                                    >
+                                      Discover the mission and values of Viwe
+                                      Inc, a powerhouse agency based in the
+                                      South Africa
+                                    </p>
+                                  </div>
+                                  <div
+                                    class="kmb-widget-btn-group kmb-widget-btn-group-center"
+                                  >
+                                    <a
+                                      href="/d/Services.html"
+                                      class="kmb-widget-btn kmb-widget-primary-btn"
+                                      ><span class="kmb-widget-btn-label"
+                                        >Learn More</span
+                                      ></a
+                                    ><a
+                                      href="/d/Booking"
+                                      class="kmb-widget-btn kmb-widget-secondary-btn"
+                                      ><span class="kmb-widget-btn-label"
+                                        >Book Now</span
+                                      ></a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="kmb-page-widget about-us about-us-t1 about-us-t1-v11"
+              style="padding-top: 0px; padding-bottom: 0px"
+              id="AboutUsSettingsT1V11_2353869556191"
+            >
+              <div class="kmb-widget-container-fluid">
+                <div class="kmb-widget-content">
+                  <div class="kmb-widget-flex-row">
+                    <div
+                      class="lg_w-3-5 w-full self-stretch kmb-self-stretch-img-col"
+                    >
+                      <div
+                        class="kmb-widget-image-col-group kmb-lg-widget-col-group h-full"
+                      >
+                        <div
+                          data-width="1140"
+                          class="kmb-widget-image kmb-widget-full-image kmb-lg-widget-full-h-image kmb-hs-image-h-auto kmb-hs-image-center kmb-widget-image-item-default-rounded-right"
+                        >
+                          <img
+                            onerror="this.setAttribute('data-error', 1)"
+                            width="1140"
+                            height="703"
+                            alt="SIPS"
+                            loading="lazy"
+                            data-nuxt-img=""
+                            data-width="1140"
+                            data-height="703"
+                            class="kmb-widget-image-item kmb-widget-type-image"
+                            style="max-width: 1140px; max-height: 703px"
+                            src="assets/images/goug.webp"
+                            srcset="assets/images/goug.webp 1x"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-2-5 w-full kmb-lg-widget-left-lg-col-space lg_flex lg_items-center"
+                    >
+                      <div class="kmb-sm-widget-container">
+                        <div
+                          class="kmb-widget-aligment-wrap kmb-widget-default-info kmb-widget-info-left lg_py-10"
+                        >
+                          <div
+                            class="kmb-widget-titles-info kmb-widget-lg-divider text-center"
+                          >
+                            <h3
+                              class="kmb-widget-rich-text kmb-widget-sub-title"
+                              data-max-chars="150"
+                            >
+                              Let us handle your marketing needs.
+                            </h3>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title kmb-widget-title-h1"
+                              data-max-chars="150"
+                            >
+                              <span
+                                class="kmb-live-tag-label kmb-rich-text-paragraph"
+                                >Connect with Our Marketing Agency</span
+                              >
+                            </h2>
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 text-center"
+                              data-max-chars="2000"
+                            >
+                              Hey there! We're a bunch of creative minds at a
+                              top-notch marketing agency. Our team loves
+                              crafting unique campaigns that make your brand
+                              stand out. Let's make magic happen together!
+                            </div>
+                          </div>
+                          <div
+                            class="kmb-widget-btn-group kmb-widget-btn-group-center -mx-2"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="kmb-page-widget text text-t1 text-t1-v2"
+              style="padding-top: 38px; padding-bottom: 38px"
+              id="TextSettingsT1V2_1338980364321"
+            >
+              <div class="kmb-widget-container">
+                <div class="kmb-widget-content kmb-widget-info-left">
+                  <div class="kmb-widget-aligment-wrap kmb-widget-text-content">
+                    <div class="kmb-widget-titles-info">
+                      <h3
+                        class="kmb-widget-rich-text kmb-widget-sub-title kmb-widget-md-el-group"
+                        data-max-chars="150"
+                      >
+                        Redefining Business Solutions with Intelligent
+                        Technology
+                      </h3>
+                      <h2
+                        class="kmb-widget-rich-text kmb-widget-title kmb-widget-title-h1 kmb-widget-title-no-divider"
+                        data-max-chars="150"
+                      >
+                        Revolutionizing Digital Marketing Strategies
+                      </h2>
+                    </div>
+                    <div
+                      class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-text-description"
+                      data-max-chars="9999999"
+                    >
+                      <p
+                        class="kmb-live-tag-label kmb-rich-text-paragraph"
+                        dir=""
+                      >
+                        At Viwe Inc, we strive to revolutionize digital
+                        marketing strategies in order to redefine business
+                        solutions within the ever-changing technological
+                        landscape. Our intelligent technology enables us to
+                        create innovative approaches that drive customer
+                        engagement and satisfaction. We leverage cutting edge
+                        analytics that allow our team of experts to design
+                        efficient strategies tailored to fit your company’s
+                        needs, earning you more customers and higher ROI.
+                      </p>
+                    </div>
+                    <div
+                      class="kmb-widget-btn-group kmb-widget-btn-group-center"
+                    >
+                      <a
+                        href="/d/Home"
+                        class="kmb-widget-btn kmb-widget-primary-btn"
+                        ><span class="kmb-widget-btn-label">Learn More</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="kmb-page-widget services services-t5 services-t5-v1"
+              style="padding-top: 38px; padding-bottom: 38px"
+              id="ServicesSettingsT5V1_9906522102361"
+            >
+              <div class="kmb-widget-container">
+                <div class="kmb-widget-content services-content">
+                  <div
+                    class="kmb-widget-aligment-wrap kmb-widget-titles-info text-center kmb-widget-xl-group kmb-sm-text-group"
+                  >
+                    <h3
+                      class="kmb-widget-rich-text kmb-widget-sub-title"
+                      data-max-chars="150"
+                    >
+                      What we can do
+                    </h3>
+                    <h2
+                      class="kmb-widget-rich-text kmb-widget-title kmb-widget-title-h1 kmb-widget-title-no-divider"
+                      data-max-chars="150"
+                    >
+                      <p class="kmb-rich-text-paragraph">Our services</p>
+                    </h2>
+                    <div
+                      class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2"
+                      data-max-chars="1200"
+                    >
+                      <p class="kmb-rich-text-paragraph">
+                        All our services are available for you!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="kmb-widget-row justify-center">
+                    <!--[-->
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center animate__animated animate__fadeInUp"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              onerror="this.setAttribute('data-error', 1)"
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/pexels-cottonbro-5082575.webp"
+                              srcset="
+                                assets/images/pexels-cottonbro-5082575.webp 1x
+                              "
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <!--[-->
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                Social Media Management
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!----><!--]-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center animate__animated animate__fadeInUp"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              onerror="this.setAttribute('data-error', 1)"
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/pexels-george-morina-4960464.webp"
+                              srcset="
+                                assets/images/pexels-george-morina-4960464.webp 1x
+                              "
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <!--[-->
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                SEO Optimization
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!----><!--]-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center animate__animated animate__fadeInUp"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              onerror="this.setAttribute('data-error', 1)"
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/dtghc.webp"
+                              srcset="assets/images/dtghc.webp 1x"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <!--[-->
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                Email Marketing
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!----><!--]-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center animate__animated animate__fadeInUp"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              onerror="this.setAttribute('data-error', 1)"
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/pexels-cottonbro-5474295.webp"
+                              srcset="
+                                assets/images/pexels-cottonbro-5474295.webp 1x
+                              "
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <!--[-->
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                Digital Advertising
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!----><!--]-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/pexels-christina-morillo-1181346.webp"
+                              srcset="
+                                assets/images/pexels-christina-morillo-1181346.webp 1x
+                              "
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                Branding and Design
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!---->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/pexels-dominika-roseclay-905163.webp"
+                              srcset="
+                                assets/images/pexels-dominika-roseclay-905163.webp 1x
+                              "
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                Content Creation
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!---->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/pexels-nataliya-vaitkevich-7172814.webp"
+                              srcset="
+                                assets/images/pexels-nataliya-vaitkevich-7172814.webp 1x
+                              "
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                Lead Generation
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!---->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-xl-group"
+                    >
+                      <div
+                        class="kmb-service-item kmb-widget-item kmb-service-column-item text-center"
+                      >
+                        <div
+                          class="kmb-service-image-group kmb-widget-item-image kmb-widget-el-group mx-auto flex justify-center"
+                        >
+                          <div
+                            data-width="255"
+                            class="kmb-widget-image kmb-widget-service-image"
+                          >
+                            <img
+                              width="255"
+                              height="255"
+                              alt="SIPS"
+                              loading="lazy"
+                              data-nuxt-img=""
+                              data-width="255"
+                              data-height="255"
+                              class="kmb-widget-image-item kmb-widget-type-image"
+                              style="max-width: 255px; max-height: 255px"
+                              src="assets/images/pexels-george-morina-4960464.webp"
+                              srcset="
+                                assets/images/pexels-george-morina-4960464.webp 1x
+                              "
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-widget-item-content kmb-service-item-content"
+                        >
+                          <div class="kmb-widget-aligment-wrap">
+                            <div class="kmb-widget-item-inner-content">
+                              <h4
+                                class="kmb-widget-rich-text kmb-widget-title-h4 kmb-widget-item-title kmb-service-name"
+                                data-max-chars="150"
+                              >
+                                Analytics and Reporting
+                              </h4>
+                              <div
+                                class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body1 kmb-widget-item-description kmb-service-description mb-0"
+                                data-max-chars="1200"
+                              >
+                                <p class="kmb-rich-text-paragraph">
+                                  All our services are available for you!
+                                </p>
+                              </div>
+                            </div>
+                            <!---->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--]-->
+                  </div>
+                  <div class="kmb-widget-btn-group kmb-widget-btn-group-center">
+                    <button
+                      class="kmb-widget-btn kmb-widget-primary-btn view-btn"
+                      id="view-btn"
+                      type="button"
+                      aria-label="button"
+                    >
+                      <span
+                        id="view-btn-label"
+                        class="kmb-widget-btn-label view-btn-label"
+                        >view more</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="kmb-page-widget testimonials testimonials-t5 testimonials-t5-v1 kmb-widget-bg"
+              style="padding-top: 38px; padding-bottom: 38px"
+              id="TestimonialsSettingsT5V1_4411174139911"
+            >
+              <div class="kmb-widget-container-fluid">
+                <div
+                  class="kmb-widget-content kmb-widget-slider-content pt-16 pb-2"
+                >
+                  <div class="flex justify-center kmb-widget-2xl-col-group">
+                    <i
+                      style="font-size: 42px"
+                      class="fa-solid fa-quote-right text-5xl"
+                    ></i>
+                  </div>
+                  <div
+                    class="kmb-site-slider kmb-slider has-indicators kmb-site-slider-mouse-drag kmb-site-slider-infinite-scroll kmb-widget-slider-inside-space-row kmb-widget-col-group"
+                    tabindex="0"
+                  >
+                    <div
+                      class="kmb-slider-stage-outer kmb-site-slider-stage-outer"
+                    >
+                      <div
+                        style="
+                          transform: translate3d(0px, 0px, 0px);
+                          transition: all 0ms ease 0s;
+                        "
+                        data-slider-transition="400"
+                        class="kmb-slider-stage kmb-site-slider-stage"
+                      >
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item is-clone lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="-3"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              Our testimonials section showcases the experiences
+                              of businesses around the globe that have entrusted
+                              us with their marketing needs.
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">David Smith</p>
+                            </h2>
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item is-clone lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="-2"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              From startups to Fortune 500 companies, each and
+                              every one of our clients has benefited from our
+                              comprehensive range of services.
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">Dina Maro</p>
+                            </h2>
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item is-clone lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="-1"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              Hear from them yourself as they share what made
+                              them choose us and how we helped propel their
+                              business forward!
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">
+                                William Brown
+                              </p>
+                            </h2>
+                          </div>
+                        </div>
+
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="0"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              Our testimonials section showcases the experiences
+                              of businesses around the globe that have entrusted
+                              us with their marketing needs.
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">David Smith</p>
+                            </h2>
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="1"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              From startups to Fortune 500 companies, each and
+                              every one of our clients has benefited from our
+                              comprehensive range of services.
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">Dina Maro</p>
+                            </h2>
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="2"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              Hear from them yourself as they share what made
+                              them choose us and how we helped propel their
+                              business forward!
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">
+                                William Brown
+                              </p>
+                            </h2>
+                          </div>
+                        </div>
+
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item is-clone lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="3"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              Our testimonials section showcases the experiences
+                              of businesses around the globe that have entrusted
+                              us with their marketing needs.
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">David Smith</p>
+                            </h2>
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item is-clone lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="4"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              From startups to Fortune 500 companies, each and
+                              every one of our clients has benefited from our
+                              comprehensive range of services.
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">Dina Maro</p>
+                            </h2>
+                          </div>
+                        </div>
+                        <div
+                          class="kmb-site-slider-item kmb-slider-item is-clone lg_my-24 my-8 lg_px-0 px-10"
+                          style="width: 100%"
+                          data-slide-index="5"
+                          aria-hidden="true"
+                        >
+                          <div class="kmb-lg-widget-container">
+                            <div
+                              class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2 kmb-slider-description text-center kmb-centered-item"
+                              data-max-chars="600"
+                            >
+                              Hear from them yourself as they share what made
+                              them choose us and how we helped propel their
+                              business forward!
+                            </div>
+                            <h2
+                              class="kmb-widget-rich-text kmb-widget-title-h4 text-center"
+                              data-max-chars="150"
+                            >
+                              <p class="kmb-rich-text-paragraph">
+                                William Brown
+                              </p>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="kmb-site-slider-navigation slider-navigation kmb-site-arrow-slider-navigation arrow-slider-navigation flex items-center kmb-site-slider-navigation-circle-arrow"
+                    >
+                      <button
+                        class="kmb-slide-prev-btn slider-navigation-btn kmb-site-slider-nav-default"
+                        style="color: #f4eeea; border-color: #f4eeea"
+                        aria-label="prev"
+                      >
+                        <i class="fa-solid fa-angle-left"></i></button
+                      ><button
+                        class="kmb-slide-next-btn slider-navigation-btn kmb-site-slider-nav-default"
+                        style="color: #f4eeea; border-color: #f4eeea"
+                        aria-label="next"
+                      >
+                        <i class="fa-solid fa-angle-right"></i>
+                      </button>
+                    </div>
+                    <div
+                      class="kmb-site-slider-pagination slider-navigation flex items-center kmb-site-slider-indicators kmb-site-slider-dots-indicators slider-indicators"
+                    >
+                      <div
+                        class="kmb-site-slider-indicators-wrapper slider-indicators-wrapper"
+                      >
+                        <button
+                          aria-label="01"
+                          style="border-color: #213f99; background: #213f99"
+                          class="kmb-site-slider-indicator slider-indicator mx-2 active"
+                        ></button
+                        ><button
+                          aria-label="02"
+                          style="border-color: #213f99"
+                          class="kmb-site-slider-indicator slider-indicator mx-2"
+                        ></button
+                        ><button
+                          aria-label="03"
+                          style="border-color: #213f99"
+                          class="kmb-site-slider-indicator slider-indicator mx-2"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="kmb-page-widget our-team our-team-t9 our-team-t9-v1"
+              style="padding-top: 38px; padding-bottom: 38px"
+              id="OurTeamSettingsT9V1_6891989841511"
+            >
+              <div
+                class="kmb-widget-container-fluid kmb-widget-container-fluid-frame"
+              >
+                <div class="kmb-widget-content our-team-content">
+                  <div class="kmb-sm-widget-container">
+                    <h2
+                      class="kmb-widget-rich-text kmb-widget-title kmb-widget-title-h1 text-center"
+                      data-max-chars="150"
+                    >
+                      Our team
+                    </h2>
+                  </div>
+                  <div class="kmb-widget-row justify-center">
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-col-group self-stretch kmb-self-stretch-img-col"
+                    >
+                      <div
+                        data-width="422"
+                        class="kmb-widget-image kmb-sm-widget-full-h-image kmb-image-center"
+                      >
+                        <img
+                          onerror="this.setAttribute('data-error', 1)"
+                          width="422"
+                          height="408"
+                          alt="SIPS"
+                          loading="lazy"
+                          data-nuxt-img=""
+                          data-width="422"
+                          data-height="408"
+                          class="kmb-widget-image-item kmb-widget-type-image"
+                          style="max-width: 422px; max-height: 408px"
+                          src="assets/images/pexels-cottonbro-7437093.webp"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-col-group"
+                    >
+                      <div
+                        class="kmb-cards-background sm_py-6 py-4 px-3 text-center h-full flex flex-col justify-center"
+                      >
+                        <div class="kmb-widget-aligment-wrap">
+                          <h3
+                            class="kmb-widget-rich-text kmb-widget-sub-title"
+                            data-max-chars="150"
+                          >
+                            We are professionals
+                          </h3>
+                          <div
+                            class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2"
+                            data-max-chars="1200"
+                          >
+                            Our team is made up of experienced professionals
+                            from a wide range of marketing disciplines,
+                            dedicated to providing the best possible service for
+                            our clients. We are committed to staying ahead in
+                            innovation and trends in order to help our clients
+                            reach their goals. Our highly collaborative approach
+                            ensures that each individual on our team contributes
+                            valuable insights and skills to help create the most
+                            effective solutions.
+                          </div>
+                          <div
+                            class="kmb-widget-btn-group kmb-widget-btn-group-center"
+                          >
+                            <a
+                              href="/d/OurTeam"
+                              class="kmb-widget-btn kmb-widget-primary-btn kmb-widget-btn-link"
+                              ><span class="kmb-widget-btn-label"
+                                >Learn More</span
+                              ></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-col-group self-stretch kmb-self-stretch-img-col"
+                    >
+                      <div
+                        data-width="422"
+                        class="kmb-widget-image kmb-sm-widget-full-h-image kmb-image-center"
+                      >
+                        <img
+                          onerror="this.setAttribute('data-error', 1)"
+                          width="422"
+                          height="408"
+                          alt="SIPS"
+                          loading="lazy"
+                          data-nuxt-img=""
+                          data-width="422"
+                          data-height="408"
+                          class="kmb-widget-image-item kmb-widget-type-image"
+                          style="max-width: 422px; max-height: 408px"
+                          src="assets/images/pexels-cottonbro-7438097.webp"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="lg_w-1-4 sm_w-1-2 w-full kmb-widget-col kmb-widget-col-group self-stretch kmb-self-stretch-img-col"
+                    >
+                      <div
+                        data-width="422"
+                        class="kmb-widget-image kmb-sm-widget-full-h-image kmb-image-center"
+                      >
+                        <img
+                          onerror="this.setAttribute('data-error', 1)"
+                          width="422"
+                          height="408"
+                          alt="SIPS"
+                          loading="lazy"
+                          data-nuxt-img=""
+                          data-width="422"
+                          data-height="408"
+                          class="kmb-widget-image-item kmb-widget-type-image"
+                          style="max-width: 422px; max-height: 408px"
+                          src="assets/images/pexels-cottonbro-7430331.webp"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="kmb-page-widget contacts contacts-t4 contacts-t4-v1"
+              style="padding-top: 0px; padding-bottom: 0px"
+              id="ContactUsSettingsT4V1_5779572668161"
+            >
+              <div class="kmb-widget-container-fluid">
+                <div
+                  class="kmb-widget-bg-image-item kmb-widget-hidden-bg-image kmb-widget-bg-image-with-overlay"
+                >
+                  <div class="kmb-widget-bg-image-content">
+                    <div
+                      class="kmb-widget-bg-image"
+                      style="
+                        background-image: url(assets/images/contact.webp);
+                        min-height: 1020px;
+                      "
+                      data-height="1020"
+                    >
+                      <div class="kmb-widget-overlay">
+                        <div
+                          class="kmb-widget-overlay-content md_py-16 py-10 items-center"
+                        >
+                          <div class="kmb-widget-container">
+                            <div
+                              class="kmb-widget-content contacts-content w-full"
+                            >
+                              <div class="contact-form-block">
+                                <div
+                                  class="kmb-widget-card-overlay z-10 sm_p-10 p-4 w-full kmb-widget-lg-el-group"
+                                >
+                                  <div
+                                    class="kmb-widget-aligment-wrap kmb-widget-titles-info text-center"
+                                  >
+                                    <h3
+                                      class="kmb-widget-rich-text kmb-widget-sub-title"
+                                      data-max-chars="150"
+                                    >
+                                      <p class="kmb-rich-text-paragraph">
+                                        Contacts
+                                      </p>
+                                    </h3>
+                                    <h2
+                                      class="kmb-widget-rich-text kmb-widget-title kmb-widget-title-h1 kmb-widget-title-no-divider"
+                                      data-max-chars="150"
+                                    >
+                                      Have a question?
+                                    </h2>
+                                    <div
+                                      class="kmb-widget-rich-text kmb-widget-description kmb-widget-text-body2"
+                                      data-max-chars="1200"
+                                    >
+                                      <p class="kmb-rich-text-paragraph">
+                                        Contact us whenever you have any
+                                        questions.
+                                        <span style="color: rgb(48, 48, 48)">
+                                        </span
+                                        >We are always here for you!
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="kmb-sm-widget-container kmb-widget-container-none-space"
+                                  >
+                                    <div
+                                      class="kmb-site-default-form-wrap kmb-widget-contact-form widget-contact-form kmb-widget-form-border-bottom-fields kmb-widget-contact-form-border-bottom-fields"
+                                    >
+                                      <div class="kmb-widget-contact-form-wrap">
+                                        <form
+                                          class="kmb-widget-form kmb-contact-form"
+                                        >
+                                          <div class="kmb-widget-row items-end">
+                                            <div
+                                              class="kmb-widget-col kmb-widget-form-group w-full"
+                                            >
+                                              <div
+                                                class="kmb-site-default-group kmb-default-group"
+                                              >
+                                                <div
+                                                  class="kmb-widget-field kmb-site-field relative kmb-site-field-group kmb-site-input-group"
+                                                >
+                                                  <input
+                                                    class="kmb-site-form-control input-field"
+                                                    type="text"
+                                                    id="kmb_site_input_16720518936201"
+                                                    name="kmb_site_input_16720518936201"
+                                                    placeholder="First Name"
+                                                  />
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div
+                                              class="kmb-widget-col kmb-widget-form-group w-full"
+                                            >
+                                              <div
+                                                class="kmb-site-default-group kmb-default-group"
+                                              >
+                                                <div
+                                                  class="kmb-widget-field kmb-site-field relative kmb-site-field-group kmb-site-input-group"
+                                                >
+                                                  <input
+                                                    class="kmb-site-form-control input-field"
+                                                    type="text"
+                                                    id="kmb_site_input_2977134861431"
+                                                    name="kmb_site_input_2977134861431"
+                                                    placeholder="Last Name"
+                                                  />
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div
+                                              class="kmb-widget-col kmb-widget-form-group w-full"
+                                            >
+                                              <div
+                                                class="kmb-site-default-group kmb-default-group"
+                                              >
+                                                <div
+                                                  class="kmb-widget-field kmb-site-field relative kmb-site-field-group kmb-site-input-group"
+                                                >
+                                                  <input
+                                                    class="kmb-site-form-control input-field required"
+                                                    type="text"
+                                                    id="kmb_site_input_12126235586471"
+                                                    name="kmb_site_input_12126235586471"
+                                                    placeholder="Email address*"
+                                                  />
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div
+                                              class="kmb-widget-col kmb-widget-form-group w-full"
+                                            >
+                                              <div
+                                                class="kmb-site-default-group kmb-default-group"
+                                              >
+                                                <div
+                                                  class="kmb-widget-field kmb-site-field relative kmb-site-field-group kmb-site-input-group"
+                                                >
+                                                  <input
+                                                    class="kmb-site-form-control input-field"
+                                                    type="text"
+                                                    id="kmb_site_input_5025675774371"
+                                                    name="kmb_site_input_5025675774371"
+                                                    placeholder="Phone"
+                                                  />
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div
+                                              class="kmb-widget-col kmb-widget-form-group w-full"
+                                            >
+                                              <div
+                                                class="kmb-site-default-group kmb-default-group"
+                                              >
+                                                <div
+                                                  class="kmb-widget-field kmb-site-field relative kmb-site-field-group kmb-site-textarea-group"
+                                                >
+                                                  <textarea
+                                                    class="kmb-site-form-control textarea-field"
+                                                    id="kmb_site_textarea_13182363970911"
+                                                    name="kmb_site_textarea_13182363970911"
+                                                    placeholder="Notes"
+                                                  ></textarea>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div
+                                            class="kmb-widget-btn-group kmb-widget-btn-group-center"
+                                          >
+                                            <button
+                                              class="kmb-widget-btn kmb-widget-primary-btn kmb-submit-form-btn"
+                                              type="submit"
+                                              aria-label="button"
+                                            >
+                                              <span class="kmb-widget-btn-label"
+                                                >Submit</span
+                                              >
+                                            </button>
+                                          </div>
+                                        </form>
+                                      </div>
+                                      <span></span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="kmb-widget-card-overlay w-full kmb-widget-lg-el-group p-4"
+                                >
+                                  <div
+                                    class="kmb-contact-informations kmb-inline-contact-informations-list item-full-width"
+                                    style="--text-color: #d9d3d3ff"
+                                  >
+                                    <div class="kmb-contact-informations-list">
+                                      <div class="kmb-contact-information-item">
+                                        <div
+                                          class="kmb-widget-contacts-info text-left"
+                                        >
+                                          <p
+                                            class="kmb-widget-contact-label kmb-display-name-label kmb-widget-el-group font-semibold kmb-widget-sub-title"
+                                          >
+                                            Email
+                                          </p>
+                                          <ul class="kmb-widget-contacts-list">
+                                            <li
+                                              class="kmb-widget-contact-item kmb-widget-md-el-group"
+                                            >
+                                              <a
+                                                href="mailto: viweinc@gmail.com"
+                                                class="kmb-widget-contact-item-value kmb-widget-text-body2"
+                                              >
+                                                viweinc@gmail.com</a
+                                              >
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                      <div class="kmb-contact-information-item">
+                                        <div
+                                          class="kmb-widget-contacts-info text-left"
+                                        >
+                                          <p
+                                            class="kmb-widget-contact-label kmb-display-name-label kmb-widget-el-group font-semibold kmb-widget-sub-title"
+                                          >
+                                            Phone
+                                          </p>
+                                          <ul class="kmb-widget-contacts-list">
+                                            <li
+                                              class="kmb-widget-contact-item kmb-widget-md-el-group"
+                                            >
+                                              <a
+                                                href="tel: +27 664834371"
+                                                class="kmb-widget-contact-item-value kmb-widget-text-body2"
+                                              >
+                                                +27 664834371</a
+                                              >
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                      <div class="kmb-contact-information-item">
+                                        <div
+                                          class="kmb-widget-contacts-info text-left"
+                                        >
+                                          <p
+                                            class="kmb-widget-contact-label kmb-display-name-label kmb-widget-el-group font-semibold kmb-widget-sub-title"
+                                          >
+                                            Address
+                                          </p>
+                                          <ul class="kmb-widget-contacts-list">
+                                            <li
+                                              class="kmb-widget-contact-item kmb-widget-md-el-group"
+                                            >
+                                              <span
+                                                class="kmb-widget-contact-item-value kmb-widget-text-body2"
+                                                >Dwesi A A, Mthatha 5099 South
+                                                Africa</span
+                                              >
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer
+          class="kmb-site-footer relative kmb-footer-category-type-1 kmb-footer-variation-type-2"
+        >
+          <div
+            class="kmb-site-footer-content kmb-site-widget kmb-widget-text-body2"
+          >
+            <div class="kmb-widget-container">
+              <div class="kmb-widget-row kmb-footer-widget-row justify-between">
+                <div
+                  class="lg-w-1-3 md-w-1-3 sm-w-1-2 w-full kmb-widget-col kmb-footer-column kmb-footer-logo-column center"
+                >
+                  <div class="kmb-site-logo kmb-site-footer-logo footer-logo">
+                    <a
+                      aria-current="page"
+                      href="/"
+                      class="router-link-active router-link-exact-active kmb-logo-link kmb-logo-type-2 kmb-footer-logo-link"
+                      ><span class="kmb-site-logo-txt kmb-site-default-text"
+                        >VIWE INC</span
+                      ></a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="kmb-footer-bottom w-full left"
+                  hascopyright="false"
+                  hassocialnetworks="false"
+                >
+                  <span
+                    class="kmb-widget-rich-text footer-copyright kmb-widget-text-caption3"
+                    data-max-chars="120"
+                    >Created with 💖 by Hocoos AI Website Builder</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="kmb-site-notifications-list"></div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const slider = document.querySelector(".kmb-site-slider");
+        const stage = document.querySelector(".kmb-slider-stage");
+        const slides = document.querySelectorAll(
+          ".kmb-site-slider-item:not(.is-clone)"
+        );
+        const totalSlides = slides.length;
+        const prevBtn = document.querySelector(".kmb-slide-prev-btn");
+        const nextBtn = document.querySelector(".kmb-slide-next-btn");
+        const indicators = document.querySelectorAll(
+          ".kmb-site-slider-indicator"
+        );
+        let currentIndex = 0;
+        const transitionTime = 400; // Transition duration in ms
+
+        // Set slide width and position
+        const updateSliderPosition = () => {
+          stage.style.transition = `all ${transitionTime}ms ease`;
+          stage.style.transform = `translate3d(${-currentIndex * 100}%, 0, 0)`;
+          updateIndicators();
+        };
+
+        // Update active indicator
+        const updateIndicators = () => {
+          indicators.forEach((indicator, index) => {
+            indicator.classList.toggle("active", index === currentIndex);
+            indicator.style.background =
+              index === currentIndex ? "#213f99" : "transparent";
+          });
+        };
+
+        // Move to specific slide
+        const moveToSlide = (index) => {
+          currentIndex = index;
+          if (currentIndex >= totalSlides) {
+            currentIndex = 0; // Jump to first real slide
+            setTimeout(() => {
+              stage.style.transition = "none";
+              stage.style.transform = `translate3d(0, 0, 0)`;
+            }, transitionTime);
+          } else if (currentIndex < 0) {
+            currentIndex = totalSlides - 1; // Jump to last real slide
+            setTimeout(() => {
+              stage.style.transition = "none";
+              stage.style.transform = `translate3d(${
+                -(totalSlides - 1) * 100
+              }%, 0, 0)`;
+            }, transitionTime);
+          }
+          updateSliderPosition();
+        };
+
+        // Previous button click
+        prevBtn.addEventListener("click", () => {
+          moveToSlide(currentIndex - 1);
+        });
+
+        // Next button click
+        nextBtn.addEventListener("click", () => {
+          moveToSlide(currentIndex + 1);
+        });
+
+        // Indicator click
+        indicators.forEach((indicator, index) => {
+          indicator.addEventListener("click", () => {
+            moveToSlide(index);
+          });
+        });
+
+        // Initialize slider
+        updateSliderPosition();
+
+        // Select all columns
+        const columns = document.querySelectorAll(".kmb-widget-col");
+        const row = document.querySelector(".kmb-widget-row");
+        let isExpanded = false;
+
+        columns.forEach((col, index) => {
+          if (index >= 4) {
+            col.style.display = "none";
+          }
+        });
+
+        const moreButton = document.querySelector(".view-btn");
+        const moreButtonText = document.querySelector(".view-btn-label");
+
+        moreButton.classList.add("kmb-more-button");
+
+        // Add click event to toggle between showing more and less
+        moreButton.addEventListener("click", () => {
+          if (isExpanded) {
+            columns.forEach((col, index) => {
+              if (index >= 4) {
+                col.style.display = "none";
+              }
+            });
+            moreButtonText.textContent = "View More";
+          } else {
+            columns.forEach((col) => {
+              col.style.display = "block";
+            });
+            moreButtonText.textContent = "View Less";
+          }
+          isExpanded = !isExpanded;
+        });
+      });
+    </script>
+  </body>
+</html>
